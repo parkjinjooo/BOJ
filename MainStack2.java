@@ -17,7 +17,7 @@ public class MainStack2 {
 			for (int i = 0; i < str.length(); i++) {
 				if (str.charAt(i) != ' ') {
 					stack.push(str.charAt(i));
-
+ 
 					if (i == str.length() - 1) {
 						while (!stack.isEmpty())
 							sb.append(stack.pop()).append('\n');
